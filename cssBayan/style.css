@@ -1,8 +1,8 @@
 * {
    overflow-y: hidden;
    margin: 0;
-    transition-duration: 0.2s;
-      }
+   transition-duration: 0.2s;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +10,6 @@ body {
     line-height: 1.5;
     margin: 0;
     color: deepskyblue;
-    
 }
 
 h1 {
@@ -24,17 +23,14 @@ h1 {
 
 .bayan:hover {
     color: rgb(0, 0, 0);
-
 }
 
 .bayan:hover .icon {
     opacity: 1;
-
 }
 
 .bayan-item {
     border-bottom: 0.1vh solid rgb(199, 199, 199);
-    
 }
 
 p {
@@ -52,16 +48,12 @@ p {
     cursor: pointer;
 }
 
-
-
-
 .icon {
-background-image: url(/cssBayan/src/icon/X-icon.svg);
-background-repeat: no-repeat;
-width: 2vh;
-height: 2vh;
-opacity: 0;
-
+    background-image: url(cssBayan/src/icon/X-icon.svg);
+    background-repeat: no-repeat;
+    width: 2vh;
+    height: 2vh;
+    opacity: 0;
 }
 
 .bayan-input {
@@ -69,7 +61,7 @@ opacity: 0;
     height: 0;
     appearance: none;
     position: absolute;
-   }
+}
 
 .bayan-input:checked ~ .bayan-title .bayan-img {
     max-height: 100vh;
@@ -83,25 +75,20 @@ opacity: 0;
     color: black;
 }
 
-
 .bayan-img {
     display: block;
     max-height: 0;
     margin: auto;
-    }
+}
 
-   
- 
- @media(min-width: 900px)
- {
+ @media(min-width: 900px) {
     .bayan-title:hover .bayan-img{
         max-height: 100vh;
-        }
+    }
     
     .bayan-title:hover .icon {
         transform: rotate(45deg);
     }
-
  }
 
 
@@ -118,11 +105,11 @@ opacity: 0;
     .icon {
         width: 1.5vh;
         height: 1.5vh;
-}
+    }
 
-p {
-    width: calc(100% - 1.5vh);
-}
+     p {
+        width: calc(100% - 1.5vh);
+    }
 }
 
 
@@ -135,6 +122,4 @@ p {
     .bayan {
         max-width: 90%;
     }
- 
-  
-    }
+}
