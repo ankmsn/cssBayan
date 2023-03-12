@@ -49,7 +49,7 @@ p {
 }
 
 .icon {
-    background-image: url(cssBayan/src/icon/X-icon.svg);
+    background-image: url(src/icon/X-icon.svg);
     background-repeat: no-repeat;
     width: 2vh;
     height: 2vh;
