@@ -60,7 +60,7 @@ p {
     width: 0;
     height: 0;
     appearance: none;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .bayan-input:checked ~ .bayan-title .bayan-img {
